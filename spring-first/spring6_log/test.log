@@ -1,4 +1,4 @@
-23:27:58.878 DEBUG org.springframework.context.support.AbstractApplicationContext 654 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@301eda63
-23:27:58.923 DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 1 bean definitions from class path resource [beans.xml]
-23:27:58.931 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'helloWorld'
-23:27:58.942 INFO  HellWordTest 16 test - 测试log42j日志框架
+23:37:02.642 DEBUG org.springframework.context.support.AbstractApplicationContext 654 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@301eda63
+23:37:02.693 DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 1 bean definitions from class path resource [beans.xml]
+23:37:02.703 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'helloWorld'
+23:37:02.715 INFO  HellWordTest 16 test - 测试log42j日志框架
