@@ -1,0 +1,4 @@
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.context.support.AbstractApplicationContext 654 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@301eda63
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 1 bean definitions from class path resource [beans.xml]
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'helloWorld'
+{yyyy-MM-dd 'at' HH:mm:ss z} INFO  HellWordTest 16 test - 测试log42j日志框架
