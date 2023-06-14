@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class HellWordTest {
-    private Logger logger = LoggerFactory.getLogger(HellWordTest.class);
+    private final Logger logger = LoggerFactory.getLogger(HellWordTest.class);
 
     @Test
     public void test() {
