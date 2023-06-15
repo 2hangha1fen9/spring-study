@@ -15,4 +15,12 @@ public class HellWordTest {
         main.sayHello();
         logger.info("测试log42j日志框架");
     }
+
+    @Test
+    public void testReflect() throws Exception {
+        Class clazz = Class.forName("cloud.zhfsmy.HelloWorld");
+        HelloWorld hello = (HelloWorld) clazz.getDeclaredConstructor().newInstance();
+        hello.sayHello();
+
+    }
 }

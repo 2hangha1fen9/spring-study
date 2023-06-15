@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="user1" class="cloud.zhfsmy.User"/>
+    <!--通过get,set注入属性-->
+    <bean id="user2" class="cloud.zhfsmy.User">
+        <property name="name" value="张三"/>
+        <property name="age" value="18"/>
+    </bean>
+    <!--通过构造器注入-->
+    <bean id="user3" class="cloud.zhfsmy.User">
+        <constructor-arg name="name" value="李四"/>
+        <constructor-arg name="age" value="18"/>
+    </bean>
+    <bean id="userDao" class="cloud.zhfsmy.UserDAOImpl"/>
+</beans>
