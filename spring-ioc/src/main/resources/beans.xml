@@ -1,18 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
        xmlns="http://www.springframework.org/schema/beans"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util.xsd
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="user1" class="cloud.zhfsmy.User"/>
+    <bean id="user1" class="cloud.zhfsmy.entity.User"/>
     <!--通过get,set注入属性-->
-    <bean id="user2" class="cloud.zhfsmy.User">
+    <bean id="user2" class="cloud.zhfsmy.entity.User">
         <property name="name" value="张三"/>
         <property name="age" value="18"/>
     </bean>
     <!--通过构造器注入-->
-    <bean id="user3" class="cloud.zhfsmy.User">
+    <bean id="user3" class="cloud.zhfsmy.entity.User">
         <constructor-arg name="name" value="李四"/>
         <constructor-arg name="age" value="18"/>
     </bean>
-    <bean id="userDao" class="cloud.zhfsmy.UserDAOImpl"/>
+    <!--特殊值处理-->
+    <bean id="user4" class="cloud.zhfsmy.entity.User">
+        <property name="name">
+            <null/>
+        </property>
+    </bean>
+    <bean id="user5" class="cloud.zhfsmy.entity.User">
+        <property name="name">
+            <value><![CDATA[a < b]]></value>
+        </property>
+    </bean>
+    <bean id="userDao" class="cloud.zhfsmy.dao.UserDAOImpl"/>
+    <!--引用类型注入-->
+    <bean id="mobile" class="cloud.zhfsmy.entity.Mobile">
+        <property name="number" value="10086"/>
+        <property name="isp" value="中国移动"/>
+    </bean>
+    <bean id="user6" class="cloud.zhfsmy.entity.User">
+        <property name="name" value="王五"/>
+        <property name="age" value="18"/>
+        <property name="mobile" ref="mobile"/>
+    </bean>
+    <!--内部bean-->
+    <bean id="user7" class="cloud.zhfsmy.entity.User">
+        <property name="name" value="赵六"/>
+        <property name="age" value="18"/>
+        <property name="mobile">
+            <bean class="cloud.zhfsmy.entity.Mobile">
+                <property name="number" value="10010"/>
+                <property name="isp" value="中国联通"/>
+            </bean>
+        </property>
+    </bean>
+    <!--级联赋值-->
+    <bean id="user8" class="cloud.zhfsmy.entity.User">
+        <property name="name" value="王五"/>
+        <property name="age" value="18"/>
+        <property name="mobile" ref="mobile"/>
+        <property name="mobile.number" value="10000"/>
+        <property name="mobile.isp" value="中国电信"/>
+    </bean>
+    <!--数组赋值-->
+    <bean id="user9" class="cloud.zhfsmy.entity.User">
+        <property name="name" value="王五"/>
+        <property name="age" value="18"/>
+        <property name="hobbies">
+            <array>
+                <value>吃饭</value>
+                <value>睡觉</value>
+                <value>打豆豆</value>
+            </array>
+        </property>
+    </bean>
+    <!--集合赋值-->
+    <bean id="user10" class="cloud.zhfsmy.entity.User">
+        <property name="name" value="王五"/>
+        <property name="age" value="18"/>
+        <property name="friends">
+            <list>
+                <ref bean="user1"/>
+                <ref bean="user2"/>
+                <ref bean="user3"/>
+                <ref bean="user4"/>
+            </list>
+        </property>
+    </bean>
+    <!--map赋值-->
+    <bean id="user11" class="cloud.zhfsmy.entity.User">
+        <property name="name" value="王五"/>
+        <property name="age" value="18"/>
+        <property name="telBook">
+            <map>
+                <entry key="10086" value-ref="user1"/>
+                <entry key="10089" value-ref="user2"/>
+            </map>
+        </property>
+    </bean>
+    <!--集合引用赋值-->
+    <util:list id="users">
+        <ref bean="user1"/>
+        <ref bean="user2"/>
+        <ref bean="user3"/>
+        <ref bean="user4"/>
+    </util:list>
+    <util:map id="telBooks">
+        <entry key="10086" value-ref="user1"/>
+        <entry key="10089" value-ref="user2"/>
+    </util:map>
+    <bean id="user12" class="cloud.zhfsmy.entity.User">
+        <property name="name" value="集合引用"/>
+        <property name="friends" ref="users"/>
+        <property name="telBook" ref="telBooks"/>
+    </bean>
 </beans>

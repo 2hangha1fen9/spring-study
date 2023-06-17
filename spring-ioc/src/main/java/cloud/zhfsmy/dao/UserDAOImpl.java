@@ -1,4 +1,4 @@
-package cloud.zhfsmy;
+package cloud.zhfsmy.dao;
 
 public class UserDAOImpl implements UserDAO {
     @Override

@@ -21,3 +21,174 @@
 {yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user2'
 {yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user3'
 {yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'userDao'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.context.support.AbstractApplicationContext 654 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@16b2bb0c
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 8 bean definitions from class path resource [beans.xml]
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user1'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user2'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user3'
+{yyyy-MM-dd 'at' HH:mm:ss z} WARN  org.springframework.core.LocalVariableTableParameterNameDiscoverer 123 inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: cloud.zhfsmy.entity.User
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user4'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user5'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'userDao'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'mobile'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user6'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.context.support.AbstractApplicationContext 654 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@16b2bb0c
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 8 bean definitions from class path resource [beans.xml]
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user1'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user2'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user3'
+{yyyy-MM-dd 'at' HH:mm:ss z} WARN  org.springframework.core.LocalVariableTableParameterNameDiscoverer 123 inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: cloud.zhfsmy.entity.User
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user4'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user5'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'userDao'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'mobile'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user6'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.context.support.AbstractApplicationContext 654 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@16b2bb0c
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 8 bean definitions from class path resource [beans.xml]
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user1'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user2'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user3'
+{yyyy-MM-dd 'at' HH:mm:ss z} WARN  org.springframework.core.LocalVariableTableParameterNameDiscoverer 123 inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: cloud.zhfsmy.entity.User
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user4'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user5'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'userDao'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'mobile'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user6'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.context.support.AbstractApplicationContext 654 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@16b2bb0c
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 8 bean definitions from class path resource [beans.xml]
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user1'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user2'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user3'
+{yyyy-MM-dd 'at' HH:mm:ss z} WARN  org.springframework.core.LocalVariableTableParameterNameDiscoverer 123 inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: cloud.zhfsmy.entity.User
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user4'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user5'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'userDao'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'mobile'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user6'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.context.support.AbstractApplicationContext 654 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@16b2bb0c
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 8 bean definitions from class path resource [beans.xml]
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user1'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user2'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user3'
+{yyyy-MM-dd 'at' HH:mm:ss z} WARN  org.springframework.core.LocalVariableTableParameterNameDiscoverer 123 inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: cloud.zhfsmy.entity.User
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user4'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user5'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'userDao'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'mobile'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user6'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.context.support.AbstractApplicationContext 654 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@16b2bb0c
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 9 bean definitions from class path resource [beans.xml]
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user1'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user2'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user3'
+{yyyy-MM-dd 'at' HH:mm:ss z} WARN  org.springframework.core.LocalVariableTableParameterNameDiscoverer 123 inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: cloud.zhfsmy.entity.User
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user4'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user5'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'userDao'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'mobile'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user6'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user7'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.context.support.AbstractApplicationContext 654 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@16b2bb0c
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 10 bean definitions from class path resource [beans.xml]
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user1'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user2'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user3'
+{yyyy-MM-dd 'at' HH:mm:ss z} WARN  org.springframework.core.LocalVariableTableParameterNameDiscoverer 123 inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: cloud.zhfsmy.entity.User
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user4'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user5'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'userDao'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'mobile'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user6'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user7'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user8'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.context.support.AbstractApplicationContext 654 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@16b2bb0c
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 10 bean definitions from class path resource [beans.xml]
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user1'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user2'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user3'
+{yyyy-MM-dd 'at' HH:mm:ss z} WARN  org.springframework.core.LocalVariableTableParameterNameDiscoverer 123 inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: cloud.zhfsmy.entity.User
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user4'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user5'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'userDao'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'mobile'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user6'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user7'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user8'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.context.support.AbstractApplicationContext 654 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@16b2bb0c
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 11 bean definitions from class path resource [beans.xml]
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user1'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user2'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user3'
+{yyyy-MM-dd 'at' HH:mm:ss z} WARN  org.springframework.core.LocalVariableTableParameterNameDiscoverer 123 inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: cloud.zhfsmy.entity.User
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user4'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user5'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'userDao'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'mobile'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user6'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user7'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user8'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user9'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.context.support.AbstractApplicationContext 654 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@662706a7
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 11 bean definitions from class path resource [beans.xml]
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user1'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user2'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user3'
+{yyyy-MM-dd 'at' HH:mm:ss z} WARN  org.springframework.core.LocalVariableTableParameterNameDiscoverer 123 inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: cloud.zhfsmy.entity.User
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user4'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user5'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'userDao'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'mobile'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user6'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user7'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user8'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user9'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.context.support.AbstractApplicationContext 654 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@662706a7
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 12 bean definitions from class path resource [beans.xml]
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user1'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user2'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user3'
+{yyyy-MM-dd 'at' HH:mm:ss z} WARN  org.springframework.core.LocalVariableTableParameterNameDiscoverer 123 inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: cloud.zhfsmy.entity.User
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user4'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user5'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'userDao'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'mobile'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user6'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user7'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user8'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user9'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user10'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.context.support.AbstractApplicationContext 654 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@16b2bb0c
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 13 bean definitions from class path resource [beans.xml]
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user1'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user2'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user3'
+{yyyy-MM-dd 'at' HH:mm:ss z} WARN  org.springframework.core.LocalVariableTableParameterNameDiscoverer 123 inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: cloud.zhfsmy.entity.User
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user4'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user5'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'userDao'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'mobile'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user6'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user7'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user8'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user9'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user10'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user11'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.context.support.AbstractApplicationContext 654 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@16b2bb0c
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 16 bean definitions from class path resource [beans.xml]
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user1'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user2'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user3'
+{yyyy-MM-dd 'at' HH:mm:ss z} WARN  org.springframework.core.LocalVariableTableParameterNameDiscoverer 123 inspectClass - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: cloud.zhfsmy.entity.User
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user4'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user5'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'userDao'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'mobile'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user6'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user7'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user8'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user9'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user10'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user11'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'users'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'telBooks'
+{yyyy-MM-dd 'at' HH:mm:ss z} DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user12'
