@@ -1,14 +1,17 @@
+import cloud.zhfsmy.controller.UserController;
 import cloud.zhfsmy.dao.UserDAO;
 import cloud.zhfsmy.dao.UserDAOImpl;
+import cloud.zhfsmy.entity.LifeCycle;
 import cloud.zhfsmy.entity.User;
 import org.junit.jupiter.api.Test;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import javax.sql.DataSource;
 
 public class TestIOC {
     @Test
     public void test() {
-        ApplicationContext ac = new ClassPathXmlApplicationContext("beans.xml");
+        ClassPathXmlApplicationContext ac = new ClassPathXmlApplicationContext("beans.xml");
         //通过id获取bean
         User u1 = (User) ac.getBean("user1");
         u1.sayHello();
@@ -47,5 +50,27 @@ public class TestIOC {
         //集合引用赋值
         User u12 = ac.getBean("user12", User.class);
         System.out.println(u12);
+        //配置文件引入,注入druid数据源
+        DataSource ds = ac.getBean(DataSource.class);
+        System.out.println(ds);
+        //bean的作用域
+        User singletonUser1 = ac.getBean("singletonUser", User.class);
+        User singletonUser2 = ac.getBean("singletonUser", User.class);
+        User prototypeUser1 = ac.getBean("prototypeUser", User.class);
+        User prototypeUser2 = ac.getBean("prototypeUser", User.class);
+        System.out.println(singletonUser1 == singletonUser2);
+        System.out.println(prototypeUser1 == prototypeUser2);
+        //bean的生命周期
+        LifeCycle life = ac.getBean("lifeCycle", LifeCycle.class);
+        System.out.println(life);
+        //FactoryBean
+        User u13 = ac.getBean("userFactory", User.class);
+        System.out.println(u13);
+        //xml自动注入
+        //根据类型自动注入
+        UserController controller1 = ac.getBean("userControllerByType", UserController.class);
+        System.out.println(controller1.getUser());
+        //UserController controller2 = ac.getBean("userControllerByName", UserController.class);
+        //controller2.getCurrentUser();
     }
 }

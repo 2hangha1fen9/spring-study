@@ -13,7 +13,6 @@ public class User {
     private Map<String, User> telBook;
 
     public User() {
-
     }
 
     public User(String name, Integer age, Mobile mobile, String[] hobbies, List<User> friends, Map<String, User> telBook) {

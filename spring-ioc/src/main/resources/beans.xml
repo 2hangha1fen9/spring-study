@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
        xmlns="http://www.springframework.org/schema/beans"
-       xsi:schemaLocation="
-        http://www.springframework.org/schema/util
+       xsi:schemaLocation="http://www.springframework.org/schema/util
         http://www.springframework.org/schema/util/spring-util.xsd
         http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
 
     <bean id="user1" class="cloud.zhfsmy.entity.User"/>
     <!--通过get,set注入属性-->
@@ -30,7 +32,6 @@
             <value><![CDATA[a < b]]></value>
         </property>
     </bean>
-    <bean id="userDao" class="cloud.zhfsmy.dao.UserDAOImpl"/>
     <!--引用类型注入-->
     <bean id="mobile" class="cloud.zhfsmy.entity.Mobile">
         <property name="number" value="10086"/>
@@ -112,4 +113,31 @@
         <property name="friends" ref="users"/>
         <property name="telBook" ref="telBooks"/>
     </bean>
+    <!--配置文件注入-->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+    <bean id="druidDatasource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="url" value="${jdbc.url}"/>
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="username" value="${jdbc.user}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+    <!--bean的作用域-->
+    <!--singleton默认-->
+    <bean id="singletonUser" class="cloud.zhfsmy.entity.User" scope="singleton"/>
+    <!--prototype-->
+    <bean id="prototypeUser" class="cloud.zhfsmy.entity.User" scope="prototype"/>
+    <!--bean的生命周期-->
+    <bean id="lifeCycle" class="cloud.zhfsmy.entity.LifeCycle" init-method="initMethod" destroy-method="destroyMethod">
+        <property name="name" value="注入属性"/>
+    </bean>
+    <!--bean后置处理器-->
+    <bean id="processor" class="cloud.zhfsmy.ext.BeanProcessor"/>
+    <!--FactoryBean-->
+    <bean id="userFactory" class="cloud.zhfsmy.ext.UserFactoryBean"/>
+    <!--自动注入-->
+    <bean id="userDAO" class="cloud.zhfsmy.dao.UserDAOImpl"/>
+    <bean id="userService" class="cloud.zhfsmy.service.UserServiceImpl" autowire="byType"/>
+    <bean id="userControllerByType" class="cloud.zhfsmy.controller.UserController" autowire="byType"/>
+    <bean id="userControllerByName" class="cloud.zhfsmy.controller.UserController" autowire="byName"/>
 </beans>
+
