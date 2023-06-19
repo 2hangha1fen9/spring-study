@@ -11,6 +11,8 @@
     <modules>
         <module>spring-first</module>
         <module>spring-ioc</module>
+        <module>spring-annotation</module>
+        <module>spring-myioc</module>
     </modules>
 
     <dependencies>
@@ -54,11 +56,18 @@
             <artifactId>druid</artifactId>
             <version>1.2.15</version>
         </dependency>
+
+        <!--扩展注解-->
+        <dependency>
+            <groupId>jakarta.annotation</groupId>
+            <artifactId>jakarta.annotation-api</artifactId>
+            <version>2.1.1</version>
+        </dependency>
     </dependencies>
 
     <properties>
-        <maven.compiler.source>20</maven.compiler.source>
-        <maven.compiler.target>20</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 

@@ -1,0 +1,4 @@
+02:30:18.553 INFO  cloud.zhfsmy.myioc.ioc.ApplicationContext 54 scanPackage - 成功加载Bean : cloud.zhfsmy.myioc.domain.dao.impl.CarDAOImpl
+02:30:18.555 INFO  cloud.zhfsmy.myioc.ioc.ApplicationContext 54 scanPackage - 成功加载Bean : cloud.zhfsmy.myioc.domain.controller.CarController
+02:30:18.556 INFO  cloud.zhfsmy.myioc.ioc.ApplicationContext 54 scanPackage - 成功加载Bean : cloud.zhfsmy.myioc.domain.service.impl.CarServiceImpl
+02:30:18.556 INFO  cloud.zhfsmy.myioc.ioc.ApplicationContext 29 <init> - 扫描完毕,加载Bean数量: 3
