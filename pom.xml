@@ -13,6 +13,9 @@
         <module>spring-ioc</module>
         <module>spring-annotation</module>
         <module>spring-myioc</module>
+        <module>spring-aop</module>
+        <module>spring-junit</module>
+        <module>spring-jdbc</module>
     </modules>
 
     <dependencies>
@@ -24,11 +27,39 @@
             <version>6.0.9</version>
         </dependency>
 
+        <!--spring aop依赖-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>6.0.2</version>
+        </dependency>
+
+        <!--spring aspects依赖-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>6.0.2</version>
+        </dependency>
+
+        <!--spring jdbc  Spring 持久化层支持jar包-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>6.0.2</version>
+        </dependency>
+
         <!--junit5测试-->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.3.1</version>
+        </dependency>
+
+        <!--spring对junit的支持相关依赖-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>6.0.2</version>
         </dependency>
 
         <!--log4j日志框架-->

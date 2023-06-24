@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+    <context:component-scan base-package="cloud.zhfsmy.aop"/>
+    <!--开启自动AOP,扫描带有@Aspect注解的类-->
+    <aop:aspectj-autoproxy/>
+    <!--手动配置AOP-->
+    <!--<aop:config>-->
+    <!--    <aop:aspect ref="loggerAOP">-->
+    <!--        <aop:before method="beforeMethod" pointcut="execution(public * cloud.zhfsmy.aop.CalculatorImpl.*(..))"/>-->
+    <!--        <aop:after-returning method="afterReturningMethod" returning="result"-->
+    <!--                             pointcut="execution(public * cloud.zhfsmy.aop.CalculatorImpl.*(..))"/>-->
+    <!--        <aop:after-throwing method="afterThrowingMethod" throwing="ex"-->
+    <!--                            pointcut="execution(public * cloud.zhfsmy.aop.CalculatorImpl.*(..))"/>-->
+    <!--        <aop:after method="afterMethod" pointcut="execution(public * cloud.zhfsmy.aop.CalculatorImpl.*(..))"/>-->
+    <!--        <aop:around method="aroundMethod" pointcut="execution(public * cloud.zhfsmy.aop.CalculatorImpl.*(..))"/>-->
+    <!--    </aop:aspect>-->
+    <!--</aop:config>-->
+</beans>
