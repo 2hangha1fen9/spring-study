@@ -88,6 +88,18 @@
             <version>1.2.15</version>
         </dependency>
 
+        <!--Spring与Mybatis整合的jar包这个jar包mybatis在前面，是Mybatis提供的-->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.5.6</version>
+        </dependency>
+
         <!--扩展注解-->
         <dependency>
             <groupId>jakarta.annotation</groupId>
