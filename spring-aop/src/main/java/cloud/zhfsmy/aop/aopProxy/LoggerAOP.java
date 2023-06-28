@@ -17,14 +17,13 @@ public class LoggerAOP {
      * 定义可以重复使用的切入点表达式
      */
     @Pointcut("execution(public * cloud.zhfsmy.aop.CalculatorImpl.*(..))")
-    public void pointCut(JoinPoint joinPoint) {
-        System.out.println("可重用的切入点表达式");
+    public void pointCut() {
     }
 
     /**
      * 方法执行之前执行
      */
-    @Before("execution(public * cloud.zhfsmy.aop.CalculatorImpl.*(..))")
+    @Before("pointCut()")
     public void beforeMethod(JoinPoint joinPoint) {
         String name = joinPoint.getSignature().getName();
         Object[] args = joinPoint.getArgs();
@@ -34,7 +33,7 @@ public class LoggerAOP {
     /**
      * 方法返回之前执行
      */
-    @AfterReturning(value = "execution(public * cloud.zhfsmy.aop.CalculatorImpl.*(..))", returning = "result")
+    @AfterReturning(value = "pointCut()", returning = "result")
     public void afterReturningMethod(JoinPoint joinPoint, Object result) {
         String name = joinPoint.getSignature().getName();
         Object[] args = joinPoint.getArgs();
@@ -46,7 +45,7 @@ public class LoggerAOP {
     /**
      * 方法异常之后
      */
-    @AfterThrowing(value = "execution(public * cloud.zhfsmy.aop.CalculatorImpl.*(..))", throwing = "ex")
+    @AfterThrowing(value = "pointCut()", throwing = "ex")
     public void afterThrowingMethod(JoinPoint joinPoint, Throwable ex) {
         String name = joinPoint.getSignature().getName();
         Object[] args = joinPoint.getArgs();
@@ -57,7 +56,7 @@ public class LoggerAOP {
     /**
      * 方法返回之后执行
      */
-    @After("execution(public * cloud.zhfsmy.aop.CalculatorImpl.*(..))")
+    @After("pointCut()")
     public void afterMethod(JoinPoint joinPoint) {
         String name = joinPoint.getSignature().getName();
         System.out.printf("[After切入点] 操作方法: %s\n", name);
@@ -66,7 +65,7 @@ public class LoggerAOP {
     /**
      * 方法执行的每个阶段都可以设置切面方法,相当于灵活配置切入点
      */
-    @Around(value = "execution(public * cloud.zhfsmy.aop.CalculatorImpl.*(..))")
+    @Around("pointCut()")
     public Object aroundMethod(ProceedingJoinPoint joinPoint) {
         String name = joinPoint.getSignature().getName();
         Object[] args = joinPoint.getArgs();

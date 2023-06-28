@@ -11,7 +11,29 @@
 
     <groupId>cloud.zhfsmy.aop</groupId>
     <artifactId>spring-aop</artifactId>
+    <dependencies>
+        <!--spring context依赖-->
+        <!--当你引入Spring Context依赖之后，表示将Spring的基础依赖引入了-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>6.0.9</version>
+        </dependency>
 
+        <!--spring aop依赖-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>6.0.2</version>
+        </dependency>
+
+        <!--spring aspects依赖-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>6.0.2</version>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

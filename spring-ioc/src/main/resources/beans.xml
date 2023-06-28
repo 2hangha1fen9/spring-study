@@ -131,7 +131,7 @@
         <property name="name" value="注入属性"/>
     </bean>
     <!--bean后置处理器-->
-    <bean id="processor" class="cloud.zhfsmy.ext.BeanProcessor"/>
+    <!--<bean id="processor" class="cloud.zhfsmy.ext.BeanProcessor"/>-->
     <!--FactoryBean-->
     <bean id="userFactory" class="cloud.zhfsmy.ext.UserFactoryBean"/>
     <!--自动注入-->
