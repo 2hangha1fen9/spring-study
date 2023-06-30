@@ -14,7 +14,7 @@ Spring可以帮我们把复杂组件创建的详细过程和繁琐细节都屏�
 public class UserFactoryBean implements FactoryBean<User> {
     @Override
     public User getObject() throws Exception {
-        
+
         return new User();
     }
 

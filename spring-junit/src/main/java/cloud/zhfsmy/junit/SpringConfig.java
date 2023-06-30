@@ -6,5 +6,5 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan("cloud.zhfsmy.junit")
 public class SpringConfig {
-    
+
 }

@@ -17,5 +17,6 @@
         <module>spring-junit</module>
         <module>spring-jdbc</module>
         <module>springmvc-helloworld</module>
+        <module>springmvc-ssm</module>
     </modules>
 </project>

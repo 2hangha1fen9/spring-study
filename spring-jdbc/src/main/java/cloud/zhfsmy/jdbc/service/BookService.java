@@ -24,6 +24,6 @@ public interface BookService {
     boolean buyBookForTimeoutTransaction(Integer bookId, Integer userId);
 
     boolean buyBookForRollbackTransaction(Integer bookId, Integer userId);
-    
+
     Book getBookInfoById(Integer bookId);
 }
